@@ -1,6 +1,6 @@
 cask "sheltie" do
-  version "1.1.0"
-  sha256 "b8c72a86fec4df3f80abbfda1c8dd61fdb03cc6175022e147e875b3b09b6bd78"
+  version "1.2.0"
+  sha256 "6192204e7722db46f015a8a94e744cd326db44c622b54130d452b2be3b0dcfa1"
 
   url "https://github.com/ryonakae/sheltie/releases/download/v#{version}/Sheltie_#{version}_universal.dmg"
   name "Sheltie"
