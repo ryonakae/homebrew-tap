@@ -1,25 +1,25 @@
 class Zerdr < Formula
   desc "Keep Herdr sessions aligned with their Git checkouts in Zed"
   homepage "https://github.com/ryonakae/zerdr"
-  version "0.5.1"
+  version "0.6.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/ryonakae/zerdr/releases/download/v0.5.1/zerdr-aarch64-apple-darwin.tar.xz"
-      sha256 "8c9de285a1305965ddec0fc4330823454fb825f5877925b3a14c907b87287537"
+      url "https://github.com/ryonakae/zerdr/releases/download/v0.6.0/zerdr-aarch64-apple-darwin.tar.xz"
+      sha256 "8d958dfce846cc7debff9bf22e09f7da2a86fdf226adb9a30d6849c9fbe88e7f"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ryonakae/zerdr/releases/download/v0.5.1/zerdr-x86_64-apple-darwin.tar.xz"
-      sha256 "4ceec878a6f2c4a7210d1ee76af8346bf7a4e47e7b4f33373c584f2102c27c69"
+      url "https://github.com/ryonakae/zerdr/releases/download/v0.6.0/zerdr-x86_64-apple-darwin.tar.xz"
+      sha256 "3fb0a98ec58f10f679cf9eb250d70c72d9a48fd1da3f6611e8d8fc0e025a3b6d"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/ryonakae/zerdr/releases/download/v0.5.1/zerdr-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "1d5745c530766942a7f394f4d8728b5d1b9993d5412bcd2cd7e5ac7ebccad475"
+      url "https://github.com/ryonakae/zerdr/releases/download/v0.6.0/zerdr-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "5cf61757176d3282cb2722c26356a3ec3dc2c4c00ce88c05d7299228b08b9234"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ryonakae/zerdr/releases/download/v0.5.1/zerdr-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "67e38ef62b7d56c3e4b165d12529baa6faf586c981445c04f9f97e2b55d83336"
+      url "https://github.com/ryonakae/zerdr/releases/download/v0.6.0/zerdr-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "a7b71ab6bc213ba3406a0f791e021ffddd62b67a1826db5c4c8a61c1399b1e8e"
     end
   end
   license "MIT"
