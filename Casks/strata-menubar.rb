@@ -1,6 +1,6 @@
 cask "strata-menubar" do
-  version "0.1.0"
-  sha256 "31ad056a673b8bd7f7c6eb42020d7a49c5884b8a09e0682cafa2fb1c8a7113df"
+  version "0.1.1"
+  sha256 "0c6692c3c83a1391056b1162c8112866435c09b26318d3608a9a61ad222b09c5"
 
   url "https://github.com/ryonakae/strata-menubar/releases/download/v#{version}/StrataMenubar_#{version}_arm64.dmg"
   name "StrataMenubar"
